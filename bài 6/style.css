@@ -1,0 +1,37 @@
+.parent {
+    width: 90%;
+    height: 14cm;
+    background-color: silver;
+    padding: 2cm;
+    border: 1px solid greenyellow;
+    margin: 0;
+    justify-content: center;
+}
+.min-size {
+    width:49%; 
+    height: 1cm;
+    margin-bottom:0.5cm;
+}
+.min-size-1 {
+    width:49.5%; 
+    height: 1cm;
+    margin-bottom:0.5cm;
+}
+.max-size {
+    width: 99.1%;
+    height: 4cm;
+  }
+button {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    padding: 11px 10px;
+    text-align: center;
+    transition: 0.3s background-color;
+  }
+  button:hover {
+    background-color: black;
+  }

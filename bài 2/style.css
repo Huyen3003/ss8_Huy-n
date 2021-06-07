@@ -1,0 +1,46 @@
+.parent { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    padding:1.5cm; 
+    border: black;
+}
+.parent .text-1 {
+    color: black; 
+    font-size: 16px;
+    justify-content: left;
+    padding-bottom: 0.5cm;
+    font-style: normal;
+    font-weight: bold
+}
+.min-size {
+    width:49%; 
+}
+.max-size-1 {
+    width: 99%;
+  }
+.max-size-2 {
+    width: 99.1%;
+    height: 3cm;
+  }
+
+  button {
+    background-color: #65c1f7;
+    border: 1px solid #59a8d5;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    min-width: 125px;
+    padding: 11px 10px;
+    text-align: center;
+    transition: 0.3s background-color;
+  }
+  button:hover {
+    background-color: #59a8d5;
+  }
+  span {
+      float: right;
+      color: gray;
+      font-size:12px;
+  }

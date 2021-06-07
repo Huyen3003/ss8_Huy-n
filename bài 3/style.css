@@ -1,0 +1,52 @@
+.parent { 
+    margin: 0;
+    border: 0;
+    padding: 2cm;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.parent .right {
+    background-color: black;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+   }
+.parent .left {
+    background-color: white;
+    padding-left: 1cm;
+    padding-right: 6cm;
+}
+.parent .left .text-1 {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 2mm;
+}
+.parent .left .line { 
+    background-color: rgb(96, 187, 243);
+    width: 2cm;
+    height: 1mm;
+}
+.parent .left .text-2 {
+    padding-top: 1cm;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.parent .left .fas {
+    color: rgb(96, 187, 243);
+}
+table {
+    width: 60%;
+    text-align: left;
+}
+th {
+    height: 100px;
+}

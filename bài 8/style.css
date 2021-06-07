@@ -1,0 +1,47 @@
+.parent { 
+   margin: 2cm;
+   background-color: rgb(3, 52, 3);
+   color: white; 
+}
+.parent .detail {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.1mm solid thistle;
+    justify-content: space-around;
+    padding-left: 1.5cm;
+}
+.parent .detail .box {
+    width: 30%;
+    padding: 1cm;
+    text-align: left;
+   
+}
+.parent .note {
+    padding: 1cm;
+    justify-content: center;
+    text-align: center;
+
+}
+.fa-facebook-square  {
+    background-color: white;
+    color: rgb(68, 164, 248);
+    font-size: 40px;
+}
+.fa-google-plus-square {
+    background-color: white;
+    border-radius: 0%;
+    color: rgb(241, 59, 68);
+    font-size: 40px;
+}
+.fa-linkedin {
+    background-color: white;
+    border-radius: 0%;
+    color: rgb(17, 14, 14);
+    font-size: 40px;
+}
+.fa-twitter-square {
+    background-color: white;
+    border-radius: 0%;
+    color: rgb(41, 144, 247);
+    font-size: 40px;
+}

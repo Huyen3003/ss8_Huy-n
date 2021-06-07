@@ -1,0 +1,26 @@
+table {
+    width:auto; 
+    height: max-content;
+    background-color: rgb(241, 241, 241);
+}
+td {
+    border-bottom: dotted;
+    border-color: red;
+}
+.td1{
+    border-bottom:none; 
+}
+.left {
+    width: 2cm;
+    height:2cm;
+    background-color: rgb(241, 109, 217);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10%;
+}
+.right{ 
+    padding-left: 1cm;
+}
